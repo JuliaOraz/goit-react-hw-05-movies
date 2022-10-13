@@ -1,4 +1,4 @@
-import { getTrendingMovies } from 'components/API';
+import { getTrendingMovies } from '../../services/API';
 import { useState, useEffect } from 'react';
 import MovieList from '../../components/MovieList/MovieList';
 import { Title } from './HomePage.styled';

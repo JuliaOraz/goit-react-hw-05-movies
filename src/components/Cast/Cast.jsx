@@ -1,4 +1,4 @@
-import { getCast, getPoster } from '../API';
+import { getCast, getPoster } from '../../services/API';
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import {

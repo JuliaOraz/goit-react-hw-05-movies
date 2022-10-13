@@ -1,6 +1,6 @@
 import { useLocation } from 'react-router-dom';
 import PropTypes from 'prop-types';
-import { getPoster } from '../API';
+import { getPoster } from '../../services/API';
 import {
   MovieContainer,
   MovieItem,

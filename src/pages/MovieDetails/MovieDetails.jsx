@@ -1,6 +1,6 @@
 import { useLocation, useParams, Outlet } from 'react-router-dom';
 import { useState, useEffect, Suspense } from 'react';
-import { getMovieId, getPoster } from '../../components/API';
+import { getMovieId, getPoster } from '../../services/API';
 import { Loader } from '../../components/Loader/Loader';
 import {
   BackLink,
